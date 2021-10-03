@@ -1,9 +1,10 @@
 # Hello-World
 
-#include <iostream>
-#include<cstring>
 
-using namespace std;
+
+
+
+
 
 struct Student {
 	int id;
