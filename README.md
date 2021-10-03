@@ -1,15 +1,11 @@
-#include <iostream>
-#include<cstring>
-using namespace std;
-
-struct Student {
-	int id;
-	char name[20];
-	char subject[20];
-};
-
 int main()
 {
+	struct Student {
+		int id;
+		char name[20];
+		char subject[20];
+	};
+
 	Student a[5];
 	Student* b;
 	Student* c;
